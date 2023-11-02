@@ -9,6 +9,7 @@ import {
   FunParentPropComponent,
   FunParentStateComponent,
 } from "./components/functional-components";
+import ParagraphConverter from "./components/mini-projects/paragraph-converter/ParagraphConverter";
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
         {/* <FunParentPropComponent /> */}
         {/* Topic 2: Learning About state and useState in Functional Component */}
         <FunParentStateComponent />
+      </div>
+
+      <div className="Projects">
+        <h1>Projects</h1>
+        {/* <ParagraphConverter /> */}
       </div>
     </>
   );
